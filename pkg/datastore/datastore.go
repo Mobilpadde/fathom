@@ -39,6 +39,11 @@ type Datastore interface {
 	GetProcessablePageviews(limit int) ([]*models.Pageview, error)
 	DeletePageviews([]*models.Pageview) error
 
+	// event-triggers
+	InsertEventTriggers([]*models.EventTrigger) error
+	GetEventTrigger(string) (*models.EventTrigger, error)
+	DeleteEventTriggers([]*models.EventTrigger) error
+
 	// page stats
 	GetPageStats(int64, time.Time, int64, int64) (*models.PageStats, error)
 	SavePageStats(*models.PageStats) error
