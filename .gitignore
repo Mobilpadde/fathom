@@ -8,5 +8,6 @@ dist
 fathom
 !cmd/fathom
 
+.vscode
 assets/build
 assets/dist

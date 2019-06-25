@@ -5,7 +5,7 @@ import (
 	"time"
 
 	log "github.com/sirupsen/logrus"
-	"github.com/usefathom/fathom/pkg/models"
+	"analytome/pkg/models"
 )
 
 func (db *sqlstore) GetSiteStats(siteID int64, date time.Time) (*models.SiteStats, error) {

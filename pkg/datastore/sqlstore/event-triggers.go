@@ -4,7 +4,7 @@ import (
 	"strings"
 
 	log "github.com/sirupsen/logrus"
-	"github.com/usefathom/fathom/pkg/models"
+	"analytome/pkg/models"
 )
 
 // GetEventTrigger selects a single envent-trigger by its string ID

@@ -37,7 +37,7 @@ FATHOM_SECRET="random-secret-string"
 | FATHOM_DATABASE_PASSWORD | | Database connection password
 | FATHOM_DATABASE_HOST |  | Database connection host
 | FATHOM_DATABASE_SSLMODE | | For a list of valid values, look [here for Postgres](https://www.postgresql.org/docs/9.1/static/libpq-ssl.html#LIBPQ-SSL-PROTECTION) and [here for MySQL](https://github.com/Go-SQL-Driver/MySQL/#tls)
-| FATHOM_DATABASE_URL | | Can be used to specify the connection string for your database, as an alternative to the previous 5 settings. 
+| FATHOM_DATABASE_URL | | Can be used to specify the connection string for your database, as an alternative to the previous 5 settings.
 | FATHOM_SECRET |  | Random string, used for signing session cookies
 
 ### Common issues

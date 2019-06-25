@@ -6,7 +6,7 @@ import (
 	"strings"
 
 	gcontext "github.com/gorilla/context"
-	"github.com/usefathom/fathom/pkg/datastore"
+	"analytome/pkg/datastore"
 )
 
 type key int

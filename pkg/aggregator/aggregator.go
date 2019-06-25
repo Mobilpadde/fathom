@@ -6,8 +6,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/usefathom/fathom/pkg/datastore"
-	"github.com/usefathom/fathom/pkg/models"
+	"analytome/pkg/datastore"
+	"analytome/pkg/models"
 
 	log "github.com/sirupsen/logrus"
 )

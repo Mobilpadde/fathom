@@ -4,10 +4,11 @@ import (
 	"errors"
 	"fmt"
 
+	"analytome/pkg/datastore"
+	"analytome/pkg/models"
+
 	log "github.com/sirupsen/logrus"
 	"github.com/urfave/cli"
-	"github.com/usefathom/fathom/pkg/datastore"
-	"github.com/usefathom/fathom/pkg/models"
 )
 
 var userCmd = cli.Command{

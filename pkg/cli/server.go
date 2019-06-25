@@ -9,7 +9,7 @@ import (
 	"github.com/urfave/cli"
 
 	"github.com/gorilla/handlers"
-	"github.com/usefathom/fathom/pkg/api"
+	"analytome/pkg/api"
 	"golang.org/x/crypto/acme/autocert"
 )
 
